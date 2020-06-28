@@ -1,0 +1,19 @@
+1. create a vM with Ubuntu18.04, and download private key *.pem
+2. config WinSCP (convert *.pem to *.ppk) to enable login with command line.
+3. config Putty to create Tunnel: http://c-nergy.be/blog/?p=6020
+4. VM: Set ubuntu user(default as AzureUser) password
+5. VM: install desktop tools: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
+5. start a putty tunnel, and login with RDP at localhost:5555.
+
+dev setup:
+1. install python3.8, 
+2. sudo apt-get install build-essential python3.8-dev gcc virtualenv
+3. create venv
+4. install ta-lib: https://medium.com/@artiya4u/installing-ta-lib-on-ubuntu-944d8ca24eae
+
+Chinese:
+https://blog.csdn.net/yanhanhui1/article/details/103539715
+https://blog.csdn.net/betwater/article/details/53454873
+
+
+pip install pyqtgraph
